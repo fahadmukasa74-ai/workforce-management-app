@@ -1,0 +1,54 @@
+{
+  "name": "mobile-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@capacitor/cli": "^8.5.0",
+    "@capacitor/core": "^8.5.0",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@supabase/supabase-js": "^2.112.4",
+    "axios": "^1.19.0",
+    "expo": "~57.0.13",
+    "expo-av": "^16.0.8",
+    "expo-file-system": "~57.0.6",
+    "expo-image-picker": "~57.0.10",
+    "expo-print": "~57.0.1",
+    "expo-sharing": "~57.0.16",
+    "expo-status-bar": "~57.0.1",
+    "expo-updates": "~57.0.14",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.2",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@capacitor-community/electron": "^5.0.1",
+    "@types/react": "~19.2.2",
+    "electron": "^44.0.0",
+    "electron-builder": "^26.15.3",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:web": "expo export --platform web",
+    "build:desktop": "npm run build:web && electron-builder --win"
+  },
+  "build": {
+    "appId": "com.fahadmukasa.workforcemanagement",
+    "productName": "Lot2545 Workforce",
+    "asar": false,
+    "directories": {
+      "output": "installers",
+      "app": "."
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  },
+  "private": true
+}

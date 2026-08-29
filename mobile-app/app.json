@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Workforce Management",
+    "slug": "workforce-management",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fahadmukasa.workforce",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.fahadmukasa.workforce",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sharing"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0067e8a5-7c20-4382-9444-9018b5112463"
+      }
+    },
+    "owner": "fahadmukasa"
+  }
+}

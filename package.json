@@ -1,0 +1,39 @@
+{
+  "$schema": "https://www.schemastore.org/package.json",
+  "name": "lot2545-workforce",
+  "version": "1.0.1",
+  "description": "Lot2545 Workforce desktop application",
+  "author": "Mukasa",
+  "private": true,
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "electron:build": "electron-builder"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "concurrently": "^10.0.3",
+    "electron": "^44.0.0",
+    "electron-builder": "^26.15.3",
+    "laravel-vite-plugin": "^3.1",
+    "tailwindcss": "^4.0.0",
+    "vite": "^8.0.0"
+  },
+  "optionalDependencies": {
+    "@laravel/multiplex": "^0.4.1"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo-image-picker": "^57.0.10",
+    "i18n-js": "^4.5.3"
+  },
+  "build": {
+    "appId": "com.lot2545.workforce",
+    "productName": "Lot2545 Workforce",
+    "directories": {
+      "output": "dist"
+    }
+  }
+}
