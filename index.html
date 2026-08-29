@@ -4,82 +4,75 @@
     <meta charset="UTF-8">
     <title>Lot2545 Workforce Download</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #0a0f2c, #1a2a6c, #2b4f9c);
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            text-align: center;
-        }
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background-color: #1b2a38; /* deep navy background */
+    color: #ffffff; /* white text */
+    margin: 0;
+    padding: 40px 0;
+  }
 
-        .container {
-            background: rgba(255, 255, 255, 0.10);
-            padding: 45px;
-            border-radius: 20px;
-            backdrop-filter: blur(12px);
-            max-width: 480px;
-            width: 100%;
-            box-shadow: 0 12px 35px rgba(0,0,0,0.35);
-            animation: fadeIn 1.2s ease;
-        }
+  .container {
+    background-color: #223b52; /* slightly lighter navy panel */
+    border-radius: 20px;
+    padding: 45px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.35);
+    max-width: 480px;
+    margin: auto;
+  }
 
-        .worker-logo {
-            width: 120px;
-            height: 120px;
-            object-fit: contain;
-            margin-bottom: 20px;
-            border-radius: 12px;
-        }
+  .worker-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 12px;
+  }
 
-        .title {
-            font-size: 34px;
-            font-weight: 700;
-            margin-bottom: 12px;
-            letter-spacing: 1px;
-        }
+  .title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #f8f9fa; /* light heading */
+  }
 
-        .subtitle {
-            font-size: 17px;
-            opacity: 0.9;
-            margin-bottom: 35px;
-            line-height: 1.5;
-        }
+  .subtitle {
+    font-size: 17px;
+    opacity: 0.9;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    color: #d1d1d1; /* soft gray text */
+  }
 
-        .download-btn {
-            display: inline-block;
-            padding: 16px 32px;
-            background: #00a8ff;
-            color: white;
-            font-size: 20px;
-            font-weight: 600;
-            border-radius: 10px;
-            text-decoration: none;
-            transition: 0.3s;
-            box-shadow: 0 4px 15px rgba(0,168,255,0.4);
-        }
+  .download-btn {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #e63946; /* red accent like your app’s Logout button */
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(230,57,70,0.4);
+  }
 
-        .download-btn:hover {
-            background: #0078ff;
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0,168,255,0.6);
-        }
+  .download-btn:hover {
+    background-color: #ff4d5a;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(230,57,70,0.6);
+  }
 
-        .version {
-            margin-top: 25px;
-            font-size: 15px;
-            opacity: 0.75;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
+  .version {
+    margin-top: 25px;
+    font-size: 15px;
+    opacity: 0.75;
+    color: #b0b0b0;
+  }
+</style>
+   
 </head>
 
 <body>
